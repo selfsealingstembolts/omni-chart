@@ -45,3 +45,4 @@ jobs:
           skip_existing: true  # Avoids failure if the release/tag was already published
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          latest_tag: "" # fix for v1.7.0 unbound variable bug
