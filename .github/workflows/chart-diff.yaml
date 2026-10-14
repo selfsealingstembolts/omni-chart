@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install Helm & yq
-        uses: azure/setup-helm@v4
+        uses: azure/setup-helm@v5
 
       - name: Generate Template Diff
         id: diff
