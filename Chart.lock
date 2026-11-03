@@ -1,6 +1,6 @@
 dependencies:
 - name: omni
   repository: oci://ghcr.io/siderolabs/charts
-  version: 2.13.0
-digest: sha256:3367abcd156c3332accffedb01372bb78f99148078f3fa4f9e3b5ff8884a861a
-generated: "2026-11-02T08:17:34.280144935Z"
+  version: 2.13.1
+digest: sha256:c75d542c461f1d67b15c1beb7c1b80ad809edbb3b2c24e1c12aa425404880faa
+generated: "2026-11-03T08:08:59.061239615Z"
