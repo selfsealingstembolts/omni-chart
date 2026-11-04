@@ -39,7 +39,7 @@ jobs:
           helm pull oci://ghcr.io/siderolabs/charts/omni --version "$VERSION" -d .cr-release-packages
 
       - name: Run Chart Releaser
-        uses: helm/chart-releaser-action@v1.7.0
+        uses: helm/chart-releaser-action@v1.9.0
         with:
           skip_packaging: true # Uses the .tgz already placed in .cr-release-packages
           skip_existing: true  # Avoids failure if the release/tag was already published
